@@ -18,7 +18,7 @@ jobs:
       - name: Extract Project ZIP
         run: |
           mkdir -p extracted_project
-          unzip project_source.zip -d extracted_project
+          unzip PhysicsLab_Android_Prototype_Project.zip -d extracted_project
           
       # 3. Set up Java Development Kit (JDK)
       - name: Set up JDK 17
